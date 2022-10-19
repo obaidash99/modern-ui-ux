@@ -182,7 +182,7 @@
 	align-items: center;
 	justify-content: center;
 	width: 50%;
-	margin: 4rem auto;
+	margin: 4rem auto 0;
 }
 
 .gpt3__sponsers-img {
@@ -196,7 +196,7 @@
 @media screen and (max-width: 1050px) {
 	.gpt3__sponsers {
 		width: 70%;
-		margin: 2rem auto;
+		margin: 2rem auto 0;
 	}
 }
 
@@ -204,7 +204,7 @@
 	.gpt3__sponsers {
 		width: 70%;
 		flex-wrap: wrap;
-		margin: 1.5rem auto;
+		margin: 1.5rem auto 0;
 	}
 	.gpt3__sponsers-img {
 		margin-bottom: 2rem;
