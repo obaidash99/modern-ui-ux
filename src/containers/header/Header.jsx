@@ -2,6 +2,7 @@ import React from 'react';
 import './header.css';
 
 import illustration from '../../assets/header-Illustration.png';
+import stats from '../../assets/stats.png';
 
 const Header = () => {
 	return (
@@ -17,7 +18,12 @@ const Header = () => {
 					<input type="mail" placeholder="Your Email Adress" />
 					<button type="button">Get Started</button>
 				</div>
-				<div className="gpt3__header-content_container-stats"></div>
+				<div className="gpt3__header-content_container-stats">
+					<div className="gpt3__header-content_container-stats_image">
+						<img src={stats} alt="stats" />
+					</div>
+					<p>1,600 people requested access a visit in last 24 hours</p>
+				</div>
 			</div>
 			<div className="gpt3__header-illustration">
 				<img src={illustration} alt="illustration" />

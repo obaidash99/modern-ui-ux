@@ -15,7 +15,6 @@ a {
 }
 
 .gradiant__bg {
-	max-height: 100vh;
 	/* ff 3.6+ */
 	background: -moz-radial-gradient(
 		circle at 30% 25%,

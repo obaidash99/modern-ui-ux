@@ -3,7 +3,7 @@
 	justify-content: space-between;
 	align-items: center;
 	flex-direction: row;
-	padding: 0.5rem 6rem;
+	padding: 2rem 6rem;
 }
 
 .gpt3__header-content_container {
@@ -18,7 +18,7 @@
 	line-height: 75px;
 	letter-spacing: -4%;
 	text-transform: capitalize;
-	margin-bottom: 1rem;
+	margin-bottom: 1.5rem;
 }
 .gpt3__header-content_container p {
 	color: #81afdd;
@@ -26,7 +26,70 @@
 	font-size: 20px;
 	line-height: 27px;
 	font-weight: 400;
+	margin-bottom: 1.5rem;
+}
+
+.gpt3__header-content_container-input {
+	width: 100%;
+	height: 73px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: row;
+	margin-bottom: 1.5rem;
+}
+.gpt3__header-content_container-input input {
+	flex: 75%;
+	height: 100%;
+	background-color: transparent;
+	border: 0;
+	outline: none;
+	background: #052d56;
+	color: #81afdd;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 27px;
+	border-radius: 5px 0px 0px 5px;
+	font-size: 20px;
+	padding: 1rem;
+}
+.gpt3__header-content_container-input button {
+	flex: 25%;
+	height: 100%;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 27px;
+	color: #fff;
+	background: #ff4820;
+	border: 0;
+	outline: none;
+	border-radius: 5px;
+	cursor: pointer;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
+.gpt3__header-content_container-stats {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 15px;
 	margin-bottom: 1rem;
+}
+.gpt3__header-content_container-stats_image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.gpt3__header-content_container-stats_image img {
+	width: 175.79px;
+	height: 32px;
+}
+.gpt3__header-content_container-stats p {
+	color: #fff;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 38px;
+	margin-bottom: 0;
 }
 
 .gpt3__header-illustration {
