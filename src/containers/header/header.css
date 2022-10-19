@@ -6,10 +6,18 @@
 	padding: 0.5rem 6rem;
 }
 
+@media screen and (max-width: 1050px) {
+	.gpt3__header {
+		flex-direction: column-reverse;
+		text-align: center;
+	}
+}
+
 .gpt3__header-content_container {
 	flex: 1;
 	font-family: var(--font-family);
 }
+
 .gpt3__header-content_container h1 {
 	background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
 	background-clip: text;
@@ -21,6 +29,7 @@
 	text-transform: capitalize;
 	margin-bottom: 1.5rem;
 }
+
 .gpt3__header-content_container p {
 	color: #81afdd;
 	width: 85%;
@@ -39,6 +48,7 @@
 	flex-direction: row;
 	margin-bottom: 1.5rem;
 }
+
 .gpt3__header-content_container-input input {
 	flex: 75%;
 	height: 100%;
@@ -54,6 +64,7 @@
 	font-size: 20px;
 	padding: 1rem;
 }
+
 .gpt3__header-content_container-input button {
 	flex: 25%;
 	height: 100%;
@@ -69,6 +80,21 @@
 	border-bottom-left-radius: 0px;
 	border-top-left-radius: 0px;
 }
+
+@media screen and (max-width: 1050px) {
+	.gpt3__header-content_container h1 {
+		font-size: 50px;
+	}
+	.gpt3__header-content_container p {
+		margin: 1.5rem auto;
+		font-size: 18px;
+	}
+	.gpt3__header-content_container-input {
+		width: 90%;
+		margin: 1.5rem auto;
+	}
+}
+
 .gpt3__header-content_container-stats {
 	display: flex;
 	justify-content: flex-start;
@@ -76,15 +102,18 @@
 	gap: 15px;
 	margin-bottom: 1rem;
 }
+
 .gpt3__header-content_container-stats_image {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
+
 .gpt3__header-content_container-stats_image img {
 	width: 175.79px;
 	height: 32px;
 }
+
 .gpt3__header-content_container-stats p {
 	color: #fff;
 	font-weight: 500;
@@ -113,6 +142,7 @@
 .gpt3__sponsers-img {
 	margin: 0rem 1rem;
 }
+
 .gpt3__sponsers-img img {
 	width: 100%;
 }

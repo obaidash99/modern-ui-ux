@@ -11,8 +11,8 @@ const App = () => {
 				<Navbar />
 				<Header />
 			</div>
-			<Brand />
 			<WhatGPT3 />
+			<Brand />
 			<Features />
 			<Possibility />
 			<CTA />
