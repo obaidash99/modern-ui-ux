@@ -1,0 +1,38 @@
+.gpt3__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	padding: 0.5rem 6rem;
+}
+
+.gpt3__header-content_container {
+	flex: 1;
+	font-family: var(--font-family);
+}
+.gpt3__header-content_container h1 {
+	background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 62px;
+	line-height: 75px;
+	letter-spacing: -4%;
+	text-transform: capitalize;
+	margin-bottom: 1rem;
+}
+.gpt3__header-content_container p {
+	color: #81afdd;
+	width: 85%;
+	font-size: 20px;
+	line-height: 27px;
+	font-weight: 400;
+	margin-bottom: 1rem;
+}
+
+.gpt3__header-illustration {
+	flex: 1;
+}
+
+.gpt3__header-illustration img {
+	width: 100%;
+}
