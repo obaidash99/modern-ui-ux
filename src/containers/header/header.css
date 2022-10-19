@@ -3,7 +3,7 @@
 	justify-content: space-between;
 	align-items: center;
 	flex-direction: row;
-	padding: 2rem 6rem;
+	padding: 0.5rem 6rem;
 }
 
 .gpt3__header-content_container {
@@ -12,6 +12,7 @@
 }
 .gpt3__header-content_container h1 {
 	background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-size: 62px;
@@ -97,5 +98,21 @@
 }
 
 .gpt3__header-illustration img {
+	width: 100%;
+}
+
+.gpt3__sponsers {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	margin: 4rem auto;
+}
+
+.gpt3__sponsers-img {
+	margin: 0rem 1rem;
+}
+.gpt3__sponsers-img img {
 	width: 100%;
 }
