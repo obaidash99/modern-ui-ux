@@ -7,8 +7,6 @@
 	padding: 6rem 6rem 2rem;
 }
 
-
-
 .gpt3__features-intro {
 	flex: 50%;
 }
@@ -49,6 +47,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	gap: 25%;
 }
 
 .gpt3__features-boxes div h2 {
@@ -79,4 +78,35 @@
 	font-size: 14px;
 	line-height: 24px;
 	color: #81afdd;
+}
+
+@media screen and (max-width: 1050px) {
+	.gpt3__features {
+		align-items: center;
+	}
+	.gpt3__features-boxes div {
+		gap: 10%;
+		flex-direction: column;
+		align-items: flex-start;
+		margin-bottom: 1.5rem;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.gpt3__features {
+		flex-direction: column;
+	}
+	.gpt3__features-intro {
+		margin-bottom: 2rem;
+	}
+
+	.gpt3__features-intro h1 {
+		margin-bottom: 0.5rem;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.gpt3__features {
+		padding: 6rem 3rem 2rem;
+	}
 }
