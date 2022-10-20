@@ -9,6 +9,7 @@
 
 .gpt3__possibility-image {
 	flex: 70%;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
@@ -59,4 +60,33 @@
 	outline: none;
 	background-color: transparent;
 	cursor: pointer;
+}
+
+@media screen and (max-width: 1050px) {
+	.gpt3__possibility-image {
+		flex: 100%;
+	}
+	.gpt3__possibility-image img {
+		width: 100%;
+	}
+	.gpt3__possibility-info_content h2 {
+		width: 100%;
+	}
+	.gpt3__possibility-info_content p {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.gpt3__possibility {
+		flex-direction: column-reverse;
+		padding: 6rem 1rem;
+	}
+	.gpt3__possibility-image {
+		flex: 30%;
+		justify-content: center;
+	}
+	.gpt3__possibility-image img {
+		width: 70%;
+	}
 }
