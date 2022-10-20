@@ -127,6 +127,7 @@
 	background: transparent;
 	border: none;
 	outline: none;
+	cursor: pointer;
 }
 
 .gpt3__box-child_three {
@@ -139,4 +140,36 @@
 .gpt3__box-child_three h2::after {
 	top: 10px;
 	left: 0;
+}
+
+@media screen and (max-width: 950px) {
+	.gpt3__box-child {
+		padding: 3rem;
+	}
+	.gpt3__box-child_one,
+	.gpt3__box-child_two,
+	.gpt3__box-child_three {
+		flex-direction: column;
+	}
+	.gpt3__box-child_two h2 {
+		margin-bottom: 1rem;
+	}
+	.gpt3__box-child_two button {
+		align-self: flex-start;
+	}
+	.gpt3__box-child_three div:not(:last-child) {
+		margin-bottom: 1.5rem;
+	}
+	.gpt3__box-child_three div h2 {
+		margin-bottom: -1rem;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.gpt3__box {
+	padding: 6rem 3rem 2rem;
+}
+	.gpt3__box-child {
+		padding: 1.5rem;
+	}
 }
