@@ -1,5 +1,5 @@
 .gpt3__blog {
-	padding: 6rem 6rem 2rem;
+	padding: 6rem 6rem;
 	font-family: var(--font-family);
 }
 
@@ -21,8 +21,8 @@
 	grid-template-areas:
 		'a b c'
 		'a d e ';
-	grid-template-columns: repeat(3, minmax(250px, 1fr));
-	gap: 30px;
+	grid-template-columns: repeat(auto-fit, 30%);
+	gap: 5%;
 	grid-template-rows: repeat(250px);
 }
 
@@ -39,7 +39,6 @@
 	flex: 1;
 	background-color: #042c54;
 	padding: 2rem;
-	height: 100%;
 	display: flex;
 	flex-direction: column;
 }
@@ -59,8 +58,61 @@
 
 .gpt3__blog-cards div .info .more {
 	margin-top: 2rem;
+	align-self: flex-end;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	color: #fff;
 }
 
+.gpt3__blog-cards div .info .more:hover {
+	background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+	.gpt3__blog-cards {
+		display: grid;
+		grid-template-columns: 30% 30% 30%;
+		grid-template-areas:
+			'a b c'
+			'd e .';
+	}
+	.gpt3__blog h1 {
+		font-size: 50px;
+	}
+	.gpt3__blog-cards div img {
+		width: 100%;
+	}
+	.gpt3__blog-cards div .info {
+		padding: 1rem;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.gpt3__blog-cards {
+		grid-template-columns: 50% 50%;
+		grid-template-areas:
+			'a b'
+			'c d '
+			'e .';
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.gpt3__blog-cards {
+		display: flex;
+		flex-direction: column;
+		gap: 50px;
+	}
+	.gpt3__blog h1 {
+		font-size: 33px;
+		line-height: 50px;
+		margin-bottom: 2rem;
+	}
+}
 .gpt3__blog-cards_one {
 	grid-area: a;
 }
