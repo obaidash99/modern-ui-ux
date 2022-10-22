@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers';
 import { CTA, Brand, Navbar } from './components';
