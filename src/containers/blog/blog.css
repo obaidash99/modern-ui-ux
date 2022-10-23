@@ -79,7 +79,7 @@
 		grid-template-areas:
 			'a b c'
 			'd e .';
-			gap: 2%;
+		gap: 2%;
 	}
 	.gpt3__blog h1 {
 		font-size: 50px;
@@ -103,6 +103,9 @@
 }
 
 @media screen and (max-width: 700px) {
+	.gpt3__blog {
+		padding: 1rem;
+	}
 	.gpt3__blog-cards {
 		display: flex;
 		flex-direction: column;

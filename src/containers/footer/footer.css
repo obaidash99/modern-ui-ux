@@ -44,10 +44,12 @@
 }
 
 .footer-1 button:hover {
+	transform: scale(1.1);
 	background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
+	border-color: transparent;
 }
 
 .footer-2 {
@@ -117,7 +119,11 @@
 }
 
 @media screen and (max-width: 700px) {
+	.footer-parent {
+		padding: 6rem 1rem 1rem;
+	}
 	.footer-1 h1 {
+		width: 100%;
 		font-size: 40px;
 		line-height: 60px;
 	}
@@ -129,9 +135,6 @@
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
-		/* gap: 30px; */
-		/* align-items: center; */
-		/* text-align: center; */
 	}
 	.footer-2 .navigations .logo {
 		margin-bottom: 3rem;
