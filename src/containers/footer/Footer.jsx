@@ -1,6 +1,7 @@
 import React from 'react';
 import './footer.css';
 
+import logo from '../../assets/logo.svg';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -13,7 +14,7 @@ const Footer = () => {
 			<div className="footer-2">
 				<div className="navigations">
 					<div className="logo">
-						<h2>gpt-3</h2>
+						<img src={logo} alt="LOGO" />
 						<p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
 					</div>
 					<div className="navs">

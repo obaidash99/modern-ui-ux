@@ -57,19 +57,13 @@
 	align-items: center;
 }
 
-/* .footer-2 .logo {
-	flex: 60%;
-} */
-
-.footer-2 .logo h2 {
-	text-transform: uppercase;
-	font-weight: 800;
-	margin-bottom: 2rem;
+.footer-2 .logo img {
+	margin-bottom: 1.5rem;
 	cursor: pointer;
 	transition: all 0.3s ease;
 }
 
-.footer-2 .logo h2:hover {
+.footer-2 .logo img:hover {
 	transform: scale(1.1);
 }
 
