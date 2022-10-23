@@ -3,7 +3,7 @@ import './features.css';
 
 const Features = () => {
 	return (
-		<div className="gpt3__features">
+		<div className="gpt3__features" id="features">
 			<div className="gpt3__features-intro">
 				<h1>
 					The Future is Now and You Just Need To Realize It. Step into Future Today & Make

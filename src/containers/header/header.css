@@ -198,6 +198,9 @@
 		width: 70%;
 		margin: 2rem auto 0;
 	}
+	.gpt3__header-illustration img {
+		width: 55%;
+	}
 }
 
 @media screen and (max-width: 700px) {
@@ -208,5 +211,8 @@
 	}
 	.gpt3__sponsers-img {
 		margin-bottom: 2rem;
+	}
+	.gpt3__header-illustration img {
+		width: 100%;
 	}
 }

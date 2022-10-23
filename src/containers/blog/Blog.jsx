@@ -9,7 +9,7 @@ import blog5 from '../../assets/blog5.png';
 
 const Blog = () => {
 	return (
-		<div className="gpt3__blog">
+		<div className="gpt3__blog" id="blog">
 			<h1>
 				A lot is happening, <br /> We are blogging about it.
 			</h1>

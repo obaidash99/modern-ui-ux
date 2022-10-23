@@ -6,7 +6,7 @@ import woman from '../../assets/possibility.png';
 const Possibility = () => {
 	return (
 		<div>
-			<div className="gpt3__possibility">
+			<div className="gpt3__possibility" id="possibility">
 				<div className="gpt3__possibility-image">
 					<img src={woman} alt="woman" />
 				</div>

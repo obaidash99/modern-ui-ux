@@ -3,7 +3,7 @@ import './whatGPT3.css';
 
 const WhatGPT3 = () => {
 	return (
-		<div className="gpt3__box">
+		<div className="gpt3__box" id="wgpt3">
 			<div className="gpt3__box-child">
 				<div className="gpt3__box-child_one">
 					<h2>What is GPT-3</h2>

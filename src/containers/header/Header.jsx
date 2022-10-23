@@ -12,7 +12,7 @@ import shopify from '../../assets/shopify.png';
 const Header = () => {
 	return (
 		<>
-			<div className="gpt3__header">
+			<div className="gpt3__header" id="home">
 				<div className="gpt3__header-content_container">
 					<h1>Let's Build Something amazing with GPT-3 OpenAI</h1>
 					<p>
