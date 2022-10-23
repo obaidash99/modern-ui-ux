@@ -1,0 +1,93 @@
+.cta-container {
+	padding: 6rem 6rem 2rem;
+	font-family: var(--font-family);
+}
+
+.cta-container .content {
+	background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+	border: 1px solid #000000;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10.7236px;
+	padding: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 5%;
+}
+
+.content p {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.content h1 {
+	font-weight: 800;
+	font-size: 30px;
+	line-height: 45px;
+}
+
+.content .btn {
+	flex: 25%;
+	display: flex;
+	align-content: center;
+	justify-content: flex-end;
+}
+
+.content .btn button {
+	border: none;
+	background-color: #000;
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 30px;
+	padding: 15px 30px;
+	border-radius: 30px;
+	text-transform: capitalize;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+
+.content .btn button:hover {
+	color: #000;
+	background-color: rgba(255, 255, 255, 0.137);
+}
+
+@media screen and (max-width: 1050px) {
+	.content h1 {
+		font-size: 25px;
+		line-height: 35px;
+	}
+	.content .btn {
+		flex: 35%;
+	}
+	.content .btn button {
+		font-size: 15px;
+		line-height: 25px;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.content .btn {
+		flex: 40%;
+	}
+	.content .btn button {
+		width: 100%;
+		/* padding: 10px 15px; */
+	}
+}
+
+@media screen and (max-width: 800px) {
+   .cta-container {
+	padding: 6rem 1rem 2rem;
+
+}
+	.cta-container .content {
+		flex-direction: column;
+		text-align: center;
+		padding: 2rem;
+	}
+	.cta-container .content .register {
+		margin-bottom: 2rem;
+	}
+}
