@@ -97,13 +97,13 @@
 
 @media screen and (max-width: 700px) {
 	.gpt3__header-content_container h1 {
-		font-size: 30px;
-		line-height: 45px;
+		font-size: 25px;
+		line-height: 35px;
 	}
 	.gpt3__header-content_container p {
 		width: 100%;
 		margin: 1.5rem auto;
-		font-size: 18px;
+		font-size: 15px;
 	}
 	.gpt3__header-content_container-input {
 		width: 100%;
