@@ -1,5 +1,6 @@
 .footer-parent {
 	padding-top: 6rem;
+	padding-bottom: 1rem;
 	background-color: #031b34;
 	display: flex;
 	flex-direction: column;
@@ -38,18 +39,28 @@
 	border: 1px solid #fff;
 	outline: none;
 	font-size: 18px;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+.footer-1 button:hover {
+	background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
 }
 
 .footer-2 {
 	padding-top: 6rem;
+	padding-bottom: 2rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.footer-2 .logo {
-	flex: 50%;
-}
+/* .footer-2 .logo {
+	flex: 60%;
+} */
 
 .footer-2 .logo h2 {
 	text-transform: uppercase;
@@ -65,12 +76,18 @@
 
 .footer-2 .navigations {
 	display: flex;
-	align-items: flex-start;
 	justify-content: space-between;
 }
 
+.footer-2 .navigations .navs {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 60px;
+}
+
 .footer-2 .navigations div {
-	width: calc(100% / 4);
+	/* width: calc(100% / 2); */
 }
 
 .footer-2 span {
@@ -86,4 +103,55 @@
 	font-size: 12px;
 	line-height: 14px;
 	margin-bottom: 2rem;
+}
+
+.footer-3 p {
+	font-size: 12px;
+	line-height: 14px;
+	font-feature-settings: 'liga' off;
+}
+
+@media screen and (max-width: 800px) {
+	.footer-1 h1 {
+		font-size: 50px;
+	}
+	.footer-1 button {
+		padding: 15px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.footer-1 h1 {
+		font-size: 40px;
+		line-height: 60px;
+	}
+	.footer-1 button {
+		padding: 10px;
+		font-size: 15px;
+	}
+	.footer-2 .navigations {
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		/* gap: 30px; */
+		/* align-items: center; */
+		/* text-align: center; */
+	}
+	.footer-2 .navigations .logo {
+		margin-bottom: 3rem;
+		text-align: center;
+	}
+	.footer-2 .navigations .logo h2 {
+		margin-bottom: 1rem;
+	}
+	.footer-2 .navigations .logo p {
+		margin: auto;
+	}
+	.footer-2 .navigations .navs {
+		gap: 20px;
+	}
+	.footer-2 .navigations .navs div {
+		width: calc(90% / 3);
+		text-align: center;
+	}
 }

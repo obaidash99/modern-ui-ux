@@ -79,6 +79,7 @@
 		grid-template-areas:
 			'a b c'
 			'd e .';
+			gap: 2%;
 	}
 	.gpt3__blog h1 {
 		font-size: 50px;
