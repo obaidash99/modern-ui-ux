@@ -32,6 +32,10 @@
 	line-height: 30px;
 	color: #ff8a71;
 	cursor: pointer;
+	transition: 0.3s ease;
+}
+.gpt3__features-intro button:hover {
+	transform: translateX(20px) scale(1.1);
 }
 
 .gpt3__features-boxes {

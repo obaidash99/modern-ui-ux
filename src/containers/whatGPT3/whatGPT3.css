@@ -128,6 +128,11 @@
 	border: none;
 	outline: none;
 	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+.gpt3__box-child_two button:hover {
+	transform: translateX(-20px) scale(1.1);
 }
 
 .gpt3__box-child_three {
@@ -167,8 +172,8 @@
 
 @media screen and (max-width: 700px) {
 	.gpt3__box {
-	padding: 6rem 1rem 2rem;
-}
+		padding: 6rem 1rem 2rem;
+	}
 	.gpt3__box-child {
 		padding: 1.5rem;
 	}

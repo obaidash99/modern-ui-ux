@@ -80,6 +80,14 @@
 	cursor: pointer;
 	border-bottom-left-radius: 0px;
 	border-top-left-radius: 0px;
+	transition: 0.3s ease;
+}
+
+.gpt3__header-content_container-input button:hover {
+	color: #ff4820;
+	background-color: #fff;
+	transform: scale(1.1);
+	border-radius: 5px;
 }
 
 @media screen and (max-width: 1050px) {

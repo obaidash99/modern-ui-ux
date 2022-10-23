@@ -43,6 +43,14 @@
 	text-transform: capitalize;
 	margin: 0 1rem;
 	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+.gpt3__navbar-links_container p:hover,
+.gpt3__navbar-sign p:hover,
+.gpt3__navbar-menu p:hover {
+	color: #ff4820;
+	transform: scale(1.1);
 }
 
 .gpt3__navbar-sign button,
@@ -58,6 +66,14 @@
 	outline: none;
 	border-radius: 5px;
 	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+.gpt3__navbar-sign button:hover,
+.gpt3__navbar-links_container button:hover {
+	color: #ff4820;
+	background-color: #fff;
+	transform: scale(1.1);
 }
 
 .gpt3__navbar-menu {

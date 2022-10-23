@@ -45,10 +45,7 @@
 
 .footer-1 button:hover {
 	transform: scale(1.1);
-	background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-clip: text;
+	color: #ff4820;
 	border-color: transparent;
 }
 
@@ -68,6 +65,12 @@
 	text-transform: uppercase;
 	font-weight: 800;
 	margin-bottom: 2rem;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.footer-2 .logo h2:hover {
+	transform: scale(1.1);
 }
 
 .footer-2 .logo p {
@@ -96,11 +99,15 @@
 	line-height: 16px;
 }
 
-.footer-2 .navigations ul li,
-.footer-2 .navigations ul li a {
+.footer-2 .navigations ul li {
 	font-size: 12px;
 	line-height: 14px;
 	margin-bottom: 2rem;
+	transition: all 0.3s ease;
+}
+
+.footer-2 .navigations ul li:hover {
+	transform: translateX(5px);
 }
 
 .footer-3 p {
